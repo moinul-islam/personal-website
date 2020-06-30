@@ -1,0 +1,146 @@
+/* global css */
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+header,
+section {
+    height: 800px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+    background-image: linear-gradient(55deg, tomato, #FFAB2D);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+}
+
+a:hover {
+    background-image: linear-gradient(35deg, #FFAB2D, tomato);
+}
+
+h1 {
+    font-weight: 700;
+    color: tomato;
+}
+
+h2 {
+    text-align: center;
+    margin: 100px 0;
+}
+
+p {
+    color: dimgray;
+}
+
+
+/* header part */
+.header-part {
+    background-image: url(bg-img/header-bg.png);
+    background-repeat: no-repeat;
+}
+
+.continer {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 550px;
+    margin: 0 25px;
+    float: left;
+}
+
+.text-part {
+    margin-top: 250px;
+}
+
+.half-width img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+/* biography section */
+.section-bio {
+    background-image: url(bg-img/biography-bg.png);
+    background-repeat: no-repeat;
+}
+
+
+/* section recent works */
+.section-latest-work {
+    background-image: url(bg-img/latest-work-bg.png);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.work-card {
+    width: 366.66px;
+    float: left;
+    margin-right: 50px;
+}
+
+.work-card:hover {
+    width: 364px;
+    border: 1px solid #FFAB2D;
+}
+
+.work-card:last-child {
+    margin-right: 0;
+}
+
+.work-card img {
+    width: 100%;
+}
+
+
+/* cline say section */
+.section-claint-say {
+    background-image: url(bg-img/footer-bg.png);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.client-talk,
+.contact-us {
+    text-align: center;
+}
+
+.clinte-say {
+    margin: 40px 0 60px 25%;
+    width: 50%;
+    color:#000;
+}
+
+.contact-us {
+    width: 60%;
+    background-image: linear-gradient(45deg, tomato, lightsalmon);
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.contact-us:hover {
+    background-image: linear-gradient(35deg, lightsalmon, tomato);
+}
+
+.contact-us p {
+    color: #fff;
+    display: inline-block;
+    margin: 0;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+/* footer section */
+footer p { 
+    text-align: center;
+    font-size: 12px;
+    margin: 50px 0;
+}
